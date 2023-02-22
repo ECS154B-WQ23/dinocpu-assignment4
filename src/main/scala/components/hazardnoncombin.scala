@@ -28,7 +28,6 @@ import chisel3._
  * Output: ex_mem_flush, if true, flush the ex_mem register. 
  * Output: mem_wb_stall, if true, stall the mem_wb register. 
  * Output: mem_wb_flush, if true, flush the mem_wb register. 
- * Output: imem_valid, if true, imem can process new instruction.
  *
  * For more information, see Section 4.7 and beginning of 4.8 of Patterson and Hennessy
  * This loosely follows the "Data hazards and stalls" section and the "Assume branch not taken" section
